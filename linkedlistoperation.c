@@ -205,32 +205,32 @@ void main()                                            //main function  handle a
                break;
 
        
-	case 2: displaylinkedlist(first);                               //here parameter first pointer because it store the address of first node
-		break;
+	case 2:displaylinkedlist(first);                               //here parameter first pointer because it store the address of first node
+	       break;
 
 
         case 3:Insertatfirst(&first);
-    		break;
+    	       break;   
 
 
         case 4:Insertatlast(&last);
-  		break; 
+  	       break; 
 
         
         case 5:Deletefirstnode(&first);
-		break;
+	       break;
 
 
         case 6:Deletelastnode(first);
-		break;
+	       break;
 
 
 	case 7:Deleteparticularnode(first,&first);
-                break;
+               break;
 
 
-        case 8: exit(0);
-		 break;
+        case 8:exit(0);
+	       break;
 
 
      	default: printf("kindly enter valid choice");
